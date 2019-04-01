@@ -1,0 +1,18 @@
+﻿<Window x:Name="Main" x:Class="Archiver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Archiver"
+        mc:Ignorable="d"
+        Title="Архиватор" Height="201.558" Width="437.206" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="ZippingButton" Content="Архивировать" Margin="10,10,10.2,87" Width="411" Height="75" Click="ZippingButton_Click" Grid.RowSpan="2"/>
+        <Button x:Name="UnzippingButton" Content="Разархивировать" Margin="10,90,10.2,7" Width="411" Height="75" Click="UnzippingButton_Click" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>
