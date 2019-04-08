@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Archiver"
         mc:Ignorable="d"
-        Title="Архиватор" Height="201.558" Width="437.206" ResizeMode="NoResize">
+        Title="Архиватор" Height="201.558" Width="437.206" ResizeMode="CanMinimize" StateChanged="OnStateChanged" IsVisibleChanged="OnIsVisibleChanged" Closing="Window_Closing">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
